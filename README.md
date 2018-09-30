@@ -59,6 +59,10 @@ WDD1 WDD1 WDD1 WDD1 WDD1 WDD1 WDD1 WDD1 WDD1 WDD1 WDD1 WDD1
  
  
  
+ 
+ 
+ 
+ 
  EXCERCISE 2:
  
  body
@@ -143,3 +147,107 @@ h4
 	clear:left;
 }
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Excercise 3:
+
+body {
+	font-family:Verdana, Arial, sans-serif;
+	background-color: #A66A00;
+}
+
+#container { 
+	background-color: #FFDC73; 
+	margin-left: 2em;
+	margin-right:2em;
+	height:100%;
+}
+
+#header { 
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-color: #FFBF00;
+	padding:2em;
+	
+}
+
+#nav { 
+float:left;
+width: 9em;
+height:100%;
+}
+h1{
+	text-align: center;
+	color: white;
+	
+}
+h2{
+	color:#cccc00;
+}
+#content { 
+	
+	overflow: auto;
+	background-color: #ffffff;
+	
+}
+
+#footer {
+	background-color: #FF9200;
+	height:2em;
+	text-align:center;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+h2 {
+
+}
+	
+#nav ul li{ 
+color:white;
+list-style-type: none;
+padding:1.5em 0em;
+border-bottom:0.1em;
+border-bottom: solid;
+border-bottom-color: white;
+background-color:#ffd633;
+}
+
+#nav a {
+	display: block;
+	background-color: #FFCF40;	
+	float:left;
+}
+
+#nav a:link {
+border-style:solid;
+border-color:white;
+border-left:none;
+border-right:none;
+border-top:none;
+border-bottom: 0.1em;
+}
+
+#nav a:visited {
+
+}
+
+#nav a:hover {
+float:left;
+}
+img{
+	float:right;
+	padding:2em;
+}
+#content>p{
+	clear:left;
+}
